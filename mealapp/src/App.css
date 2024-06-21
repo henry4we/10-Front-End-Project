@@ -1,0 +1,116 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+.card {
+  background: rgb(255, 249, 249);
+  font: size 12px;
+  color: rgb(68, 68, 68);
+  margin: 10px;
+  padding: 30px;
+  transition: 1s ease;
+  cursor: pointer;
+  .card:hover {
+    transform: scale(1.1);
+  }
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  margin-top: 20px;
+
+}
+p {
+  font-weight: bold;
+}
+
+img {
+  border-radius: 5px;
+  height: 200px;
+  width: 300px;
+}
+
+/* Individual Card Style
+•	.card { background: rgb(255, 249, 249); font-size: 12px; color: rgb(68, 68, 68); margin: 10px; padding: 30px; transition: 1s ease; cursor: pointer; }
+o	.card: This rule is for elements with the class "card".
+o	background: rgb(255, 249, 249);: Gives the card a very light pink background.
+o	font-size: 12px;: Sets the text size inside the card to 12 pixels.
+o	color: rgb(68, 68, 68);: Makes the text color dark gray.
+o	margin: 10px;: Adds space outside each card.
+o	padding: 30px;: Adds space inside each card, around the text.
+o	transition: 1s ease;: Makes changes happen smoothly over 1 second.
+o	cursor: pointer;: Changes the mouse pointer to a hand when hovering over the card.
+Hover Effect for Cards
+•	.card:hover { transform: scale(1.1); }
+o	.card:hover: This rule applies when the mouse is over a card.
+o	transform: scale(1.1);: Makes the card slightly bigger (by 10%).
+
+Content Inside Cards
+•	.content { display: flex; justify-content: space-between; font-family: sans-serif; margin-top: 20px; }
+o	.content: This rule is for elements with the class "content" inside the cards.
+o	display: flex;: Uses a flexible box layout to arrange content.
+o	justify-content: space-between;: Spreads out the content evenly within the container.
+o	font-family: sans-serif;: Sets the font type to sans-serif, which is a clean, modern font style.
+o	margin-top: 20px;: Adds space above the content section.
+Paragraph Text
+•	p { font-weight: bold; }
+o	p: This rule applies to all paragraph elements.
+o	font-weight: bold;: Makes the text bold.
+Images
+•	img { border-radius: 5px; height: 200px; width: 300px; }
+o	img: This rule applies to all image elements.
+o	border-radius: 5px;: Rounds the corners of the images slightly.
+o	height: 200px;: Sets the height of the images to 200 pixels.
+o	width: 300px;: Sets the width of the images to 300 pixels.
+
+
+ */
